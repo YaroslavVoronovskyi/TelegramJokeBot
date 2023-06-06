@@ -12,7 +12,7 @@ public class Joke {
     private String category;
 
     @Id
-    private Long id;
+    private Integer id;
 
     private Double rating;
 }
