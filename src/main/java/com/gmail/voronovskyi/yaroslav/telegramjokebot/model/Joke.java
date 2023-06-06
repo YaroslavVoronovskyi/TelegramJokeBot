@@ -8,10 +8,11 @@ import lombok.Data;
 @Entity(name = "jokes")
 public class Joke {
 
+    private String body;
+    private String category;
+
     @Id
     private Long id;
 
-    private String body;
-    private String category;
     private Double rating;
 }
